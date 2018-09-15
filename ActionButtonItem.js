@@ -84,6 +84,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     flexDirection: 'row',
     paddingTop: 2,
+    elevation: 3, // added elevation
     shadowOpacity: 0.3,
     shadowOffset: {
       width: 0,
@@ -95,3 +96,4 @@ const styles = StyleSheet.create({
     position: 'absolute',
   },
 });
+

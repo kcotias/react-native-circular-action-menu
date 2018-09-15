@@ -291,8 +291,9 @@ ActionButton.defaultProps = {
   size: 63,
   itemSize: 36,
   radius: 100,
-  btnOutRange: 'rgba(0,0,0,1)',
+  btnOutRange: '#6D8ADA',
   btnOutRangeTxt: 'rgba(255,255,255,1)',
+  
 };
 
 const styles = StyleSheet.create({
@@ -306,7 +307,7 @@ const styles = StyleSheet.create({
   },
   actionContainer: {
     flexDirection: 'column',
-    padding: 10,
+    padding: 10
   },
   actionBarItem: {
     alignItems: 'center',
@@ -316,6 +317,7 @@ const styles = StyleSheet.create({
   btn: {
     justifyContent: 'center',
     alignItems: 'center',
+    elevation: 5, //added elevation
     shadowOpacity: 0.3,
     shadowOffset: {
       width: 0,
@@ -331,3 +333,4 @@ const styles = StyleSheet.create({
     position: 'relative',
   },
 });
+
